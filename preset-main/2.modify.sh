@@ -27,7 +27,7 @@ mkdir -p files/etc/uci-defaults
 cp $DEPLOYDIR/uci-scripts/* files/etc/uci-defaults/
 
 #复制内核5.10版本CPU超频补丁
-#cp extra-files/322-mt7621-fix-cpu-clk-add-clkdev.patch target/linux/ramips/patches-5.10/
+cp extra-files/322-mt7621-fix-cpu-clk-add-clkdev.patch target/linux/ramips/patches-5.10/
 
 #设置WIFI
 #sed -i 's/OpenWrt/coolxiaomi/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
